@@ -74,14 +74,22 @@
 //    sum(10,40,30 , "rohin");
   //  console.log("aman m",add);
    
-  let num=10.234324;
-   console.log(num.toPrecision(7));
-   console.log(typeof num)
-   let number = new Number(100);
-   console.log(typeof number);
 
-   console.log(number)
+  //        extra topic in function
+  // let num=10.234324;
+  //  console.log(num.toPrecision(4));
+  //  console.log(typeof num)
+  //  let number = new Number(100);
+  //  console.log(typeof number);
 
-   //string 
-   let str = new String("hello");
-   console.log(str)
+  //  console.log(number)
+
+  //        replace in function
+   let str = new String("heello sarthak");
+   console.log(str.replace("" ,"EE"));
+   console.log(str.split(""));
+   console.log(str.length);
+
+
+   
+
