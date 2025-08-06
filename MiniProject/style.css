@@ -1,0 +1,60 @@
+
+/* 
+#parentdiv{
+    background-color:rgb(20, 168, 168);
+    width:400px;
+    border-radius: 20px;
+} */
+
+/* #parentdiv2{
+    background-color:rgb(192, 232, 192);
+    width:400px;
+    height:500px;
+    border-radius: 20px;
+}
+.child_div2{
+    background-color:rgb(27, 172, 172);
+    margin:20px;
+    height:100px;
+    width:100px;
+    border-radius:10px;
+} */
+
+/* .child_div{
+    background-color: rgb(187, 131, 131);
+    margin:20px;
+    height:100px;
+    width:100px;
+    justify-content:center; 
+    align-items:center;
+    border-radius:10px; 
+} */
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.BOX1, .BOX2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background-color:rgb(40, 12, 19);
+    height:400px;
+    width:500px;
+    margin:30px;
+ 
+}
+
+.child{
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    background-color:azure;
+    height:80px;
+    width:80px;
+    margin:10px 
+}
