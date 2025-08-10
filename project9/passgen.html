@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password-generator</title>
+    <link rel="stylesheet" href="passgen.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="main">
+        <div class="firstdiv">
+            <!-- const newpass -->
+            <h1 id="newpass" >gg</h1>
+
+            <!-- const copybtn -->
+            <i class="fa-solid fa-copy" id="copybtn"></i>
+        </div>
+        
+
+        <div class="seconddiv">
+            <!-- const range -->
+            <input type="range" id="range" min="4" max="16" value="8" >
+            <!-- const rangeval -->
+        <p id="rangevalue">16</p>
+        </div>
+     
+
+       <div class="thirddiv">
+            <input type="checkbox" name="Capital" id="capital">
+            <label for="capital">Uppercase</label>
+            <br>
+            <input type="checkbox" name="Small" id="small">
+            <label for="small">Lowercase</label>
+            <br>
+            <input type="checkbox" name="Numbers" id="number">
+            <label for="Numbers">number</label>
+            <br>
+            <input type="checkbox" name="Symbols" id="symbol">
+            <label for="Symbols">symbol</label>
+            <br>
+
+        </div> 
+    
+<!-- const btn  -->
+        <div class="fourthdiv">
+            <button id="genpass">generate pass</button>
+        </div>
+        
+    </div>
+
+
+    <script src="passgen.js"></script>
+</body>
+</html>
