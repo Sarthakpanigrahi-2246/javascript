@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    width:100vw;
+    background-color:rgb(0, 0, 0);
+    color:rgb(176, 56, 56);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+#gamename{
+    background-color:white;
+    border-bottom: 0cap;
+    border-style:solid;
+    border-color: rgb(155, 200, 31);
+    color:red;
+    border-radius:10px;
+    margin:10px;
+    box-sizing: border-box;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    
+}
+
+.tictac{
+    /* display:flex; 
+    justify-content:center;
+    align-items:center; */
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+   /* align-items:center ; */
+    cursor: pointer;
+    
+    
+}
+.box
+{
+
+    color:rgb(3, 15, 16);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width:60px;
+    font-size: 40px;
+    height:60px;
+    background-color: aliceblue;
+    margin:2px;
+    border:2px solid rgb(234, 19, 19)  ;
+    border-radius:5px;
+      cursor: pointer;   
+}
+
+.winnerclass{
+    background-color:lightyellow;
+}
+
+
+#restart{
+    border-radius:10px;
+    background-color:rgb(223, 227, 217);
+    font-size:20px;
+    padding:10px;
+    margin:30px;
+}
