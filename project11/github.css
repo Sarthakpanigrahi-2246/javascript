@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f4f4f9;
+  padding: 20px;
+}
+
+.github {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+#headline {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #24292e;
+}
+.firstdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#entername {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 300px;
+}
+
+#btn {
+  padding: 10px 16px;
+  background: #24292e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+#btn:hover {
+  background: #444d56;
+}
+
+
+.userinfo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.userinfo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.userdetail {
+  flex: 1;
+}
+
+.username {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0366d6;
+}
+
+.userbio {
+  color: #586069;
+  font-size: 0.95rem;
+}
+
+
+.userfollow {
+  margin-top: 10px;
+}
+
+.followers {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.repo {
+  flex: 1;
+  min-width: 100px;
+  background: #f6f8fa;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.repo p:first-child {
+  font-weight: bold;
+  color: #24292e;
+}
+.visitprofile {
+  text-align: center;
+}
+
+.visitprofile a {
+  text-decoration: none;
+  color: white;
+  background: #28a745;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background 0.2s ease-in-out;
+}
+
+.visitprofile a:hover {
+  background: #218838;
+}
+
+
+@media (max-width: 600px) {
+  .userinfo {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .followers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #entername {
+    width: 100%;
+  }
+}
